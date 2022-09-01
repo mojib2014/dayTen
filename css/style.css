@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.navbar {
+  position: sticky;
+  background-color: firebrick;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.navbar nav {
+  height: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar ul li {
+  padding: 15px 8px;
+  float: left;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:visited {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+
+.navbar a:active {
+  color: purple;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: #f8f8f8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.p {
+  float: left;
+}
