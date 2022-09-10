@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>About</title>
+    </head>
+
+    <body>
+        <header>
+            <h2>Black lives mattter</h2>
+        </header>
+        <nav>
+            <a href="index.html">Logo</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>HTML5 Select element</h1>
+        <select name="fruits" id="fruits" multiple>
+            <option value="" defaultValue>Please select an option</option>
+            <option value="Apple">Apple</option>
+            <option value="Orange">Orange</option>
+            <option value="Banana">Banana</option>
+            <option value="Grape">Grape</option>
+        </select>
+        <label for="remember-me">Remember Me</label>
+        <input type="radio" id="radio" />
+        <div class="container">
+            <label for="cookies">Cookies</label>
+            <input type="checkbox" id="cookies" />
+            <span class="checkmark"></span>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <details>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum dignissimos cupiditate dicta
+                provident ipsum consequatur saepe perferendis mollitia, voluptatum possimus aliquam tenetur maiores ex
+                quos minima aspernatur a accusamus.</p>
+        </details>
+        <form>
+            <input list="football-team">
+            <datalist id="football-team">
+                <option value="Fifa">
+                <option value="Dodgers">
+                <option value="Grape">
+                <option value="Banana">
+                <option value="Strawberry">
+            </datalist>
+        </form>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+        <input type="range" min="5" max="20" value="5" step="5">
+        <footer>
+            <a href="mailto:mojib@example.com">mojib@example.com</a></p>
+        </footer>
+    </body>
+
+</html>
