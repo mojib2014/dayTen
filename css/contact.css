@@ -1,0 +1,78 @@
+form {
+  background-color: #f8f8f8;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form::after {
+  content: '';
+  display: table;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type='email']:invalid {
+  border: red solid 2px;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type='submit'] {
+  margin: 20px 0;
+  padding: 5px 10px;
+  background-color: dodgerblue;
+  border: dodgerblue solid 2px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+input:disabled {
+  background-color: rgb(125, 182, 240);
+  border: rgb(125, 182, 240) solid 2px;
+}
+
+input:checked {
+  background-color: red;
+}
+
+footer {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #222;
+  color: #ffff;
+}
+
+footer p {
+  margin-bottom: 0;
+  clear: both;
+}
+
+footer ul li {
+  float: left;
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+footer ul li a {
+  color: #fff;
+  display: block;
+}

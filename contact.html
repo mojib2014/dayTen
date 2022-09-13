@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
         <title>Contact</title>
     </head>
 
@@ -21,24 +23,40 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1>Contact</h1>
+
         <div class="container">
             <form>
+                <h1>Contact</h1>
                 <label for="first-name">First Name: </label>
-                <input type="text" id="first-name" required placeholder="Your first name" />
+                <input type="text" id="first-name" required placeholder="eg: Mojib" />
                 <label for="last-name">Last Name: </label>
                 <input type="text" id="last-name" required placeholder="Your last name" />
                 <label for="email">Email: </label>
                 <input type="email" id="email" required placeholder="Your email address" />
                 <label for="message">Message</label>
-                <textarea rows="6" cols="100" id="message" placeholder="Type your message here"></textarea>
-                <div class="button-container">
-                    <button type="submit">Submit</button>
-                </div>
+                <textarea rows="16" id="message" placeholder="Type your message here"></textarea>
+                <label for="date-of-birth">date-of-birth: </label>
+                <input type="" id="date-of-birth" />
+                <input type="submit" value="Submit" />
             </form>
         </div>
+        <button type="button" class="contact-form">Contact</button>
+        <details>
+            <summary>This about dodgers</summary>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptates dolorum beatae dolores
+                tempore. Repellat accusamus animi, adipisci quidem maiores deleniti id dicta asperiores, illum harum
+                natus eum esse ex.</p>
+        </details>
         <footer>
             <a href="mailto:mojib@example.com">mojib@example.com</a></p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2022 Kevin Inc</p>
         </footer>
     </body>
 
