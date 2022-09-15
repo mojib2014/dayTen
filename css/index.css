@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+nav {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+nav ul,
+footer ul {
+  list-style: none;
+}
+
+nav ul li,
+footer ul li {
+  float: left;
+}
